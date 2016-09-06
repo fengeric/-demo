@@ -4,17 +4,4 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:onClick="btnBlur"
-        android:text="生成毛玻璃效果" />
-
-    <ImageView
-        android:id="@+id/share_bg"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/blur_bg"
-        android:scaleType="centerCrop" />
-
 </LinearLayout>
