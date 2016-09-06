@@ -5,15 +5,16 @@
     android:orientation="vertical" >
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="btnOpenThirdApp1"
-        android:text="点击打开057传goodId" />
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:onClick="btnBlur"
+        android:text="生成毛玻璃效果" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="btnOpenThirdApp2"
-        android:text="点击打开057传topicId" />
+    <ImageView
+        android:id="@+id/share_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blur_bg"
+        android:scaleType="centerCrop" />
 
 </LinearLayout>
